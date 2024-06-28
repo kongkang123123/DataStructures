@@ -15,10 +15,11 @@ Data structures are essential ingredients in creating fast and powerful algorith
 - name of ADT: [Link to code repository](your-code-repository-link)
 
 ### Class Information
-This study was conducted as part of the Data Structures course at [Your College Name], under the guidance of Professor [Professor's Name].
+This study was conducted as part of the Data Structures course at **CHUNGBUK NATIONAL UNIVERSITY**, 
+
+under the guidance of Professor **Hong Shin** of school of computer science.
 
 ### References
-- **Book 1**: "Title of the Book 1" by Author(s) of the Book 1
-- **Book 2**: "Title of the Book 2" by Author(s) of the Book 2
-
+- **Book 1**: "윤성우의 열혈 자료구" by 윤성우
+- **Book 2**: "Fundamentals of Data Structures in C" by Ellis Horowitz
 
