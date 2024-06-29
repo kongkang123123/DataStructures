@@ -15,7 +15,7 @@ int LSearch(int ar[], int len, int target) {    // 순차 탐색 알고리즘 �
 
 int main(void) {
 
-    int arr[] = {3, 5, 2, 4, 9};
+    int arr[] = {3, 5, 2, 4, 9, 11};
     int idx;
 
     idx = LSearch(arr, sizeof(arr)/sizeof(arr[0]), 4);
