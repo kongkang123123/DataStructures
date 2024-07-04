@@ -11,7 +11,7 @@ void LInsert(List * plist, LData data)
 {
 	if(plist->numOfData > LIST_LEN) 
 	{
-		puts("Failed to Save");
+		puts("Failed to save.");
 		return;
 	}
 

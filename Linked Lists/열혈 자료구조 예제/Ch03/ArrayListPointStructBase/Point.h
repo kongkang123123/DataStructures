@@ -1,4 +1,3 @@
-// p.94
 #ifndef __POINT_H__
 #define __POINT_H__
 
