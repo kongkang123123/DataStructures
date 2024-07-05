@@ -12,7 +12,8 @@ Data structures are essential ingredients in creating fast and powerful algorith
 [Source: w3schools.com]([https://www.w3schools.com](https://www.w3schools.com/dsa/dsa_intro.php))
 
 ## Materials
-- ch.02: [Recursion](https://github.com/kongkang123123/DataStructures/tree/main/.ETC/Recursion)
+- Ch02: [Recursion](https://github.com/kongkang123123/DataStructures/tree/main/.ETC/Recursion)
+- Ch03: [Linked_List 1](https://github.com/kongkang123123/DataStructures/tree/main/Linked%20Lists/%EC%97%B4%ED%98%88%20%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0%20%EC%98%88%EC%A0%9C/Ch03)
 
 ### Class Information
 This study was conducted as part of the Data Structures course at **CHUNGBUK NATIONAL UNIVERSITY**, 
