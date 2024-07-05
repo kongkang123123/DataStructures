@@ -1,3 +1,4 @@
+// 윤성우의 열혈 자료구조 p.107 + Problem 04-1
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -34,14 +35,14 @@ int main(void)
 
         if(head == NULL)
         {
-            head = newNode;
+            tail = newNode;
         }
         else
         {
-            tail->next = newNode;
+            newNode->next=head;
         }
-
-        tail = newNode;
+        head = newNode;
+        // tail = newNode;
     }
     printf("\n");
 
