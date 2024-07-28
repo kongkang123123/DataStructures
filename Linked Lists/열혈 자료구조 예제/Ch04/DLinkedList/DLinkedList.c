@@ -49,7 +49,7 @@ void LInsert(List * plist, LData data)
     {
         SInsert(plist, data);
     }
-}
+}   
 
 int LFirst(List * plist, LData * pdata)
 {
