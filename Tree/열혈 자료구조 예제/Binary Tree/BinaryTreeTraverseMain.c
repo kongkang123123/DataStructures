@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include "BinaryTree.h"
 
-void InorderTraverse(BTreeNode * bt)
+void InorderTraverse(BTreeNode * bt)    // 전위, 중위, 후위 순회는 방문 순서만 손보면 됨.
 {
     if(bt==NULL)    // Escape Recursion!
     {
