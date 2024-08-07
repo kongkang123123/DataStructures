@@ -4,7 +4,8 @@
 
 int PriComp(int n1, int n2)
 {
-    return (n2 - n1);   // Sorting for ascendin order
+    return (n2 - n1);   // Sorting for ascending order
+ // return (n1 - n2);   //       ""    descending order
 }
 
 void HeapSort(int arr[], int n, PriorityComp pc)
