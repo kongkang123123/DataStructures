@@ -1,4 +1,6 @@
 // 열혈 자료구조 p.406
+// 사실 pivot을 배열의 중간에 해당하는 값으로 결정할 때, 좋은 성능 보임
+// 피벗이 중간값에 해당하는 값일 경우, 정렬 대상이 균등하게 나뉘기 때문
 #include <stdio.h>
 
 void Swap(int arr[], int idx1, int idx2)
@@ -17,13 +19,13 @@ int Partition(int arr[], int left, int right)
     while(low <= high)  // Repeat until it does not corss
     {
         // Finding larger value than pivot
-        while(arr[low] < pivot)
+        while(arr[low] <= pivot && low <= right)
         {
             low++;  // Move low to the right
         }
 
         // Finding smaller value than pivot
-        while(pivot < arr[high])
+        while(pivot <= arr[high] && (left+1) <= high)
         {
             high--; // Move high to the left
         }
